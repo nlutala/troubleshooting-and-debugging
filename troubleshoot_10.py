@@ -1,3 +1,11 @@
+"""
+troubleshoot_10.py
+
+Troubleshoot the issue 10: (created by Generative AI)
+
+Author: Nathan Lutala (nlutala)
+"""
+
 class Animal:
     def __init__(self, name):
         self.name = name
@@ -10,5 +18,9 @@ class Dog(Animal):
         super().__init__(name)
         self.breed = breed
 
-dog = Dog("Buddy", "Golden Retriever")
-print(dog.speak())
+    def speak(self):
+        return "Woof!"
+
+if __name__ == "__main__":
+    dog = Dog("Buddy", "Golden Retriever")
+    print(dog.speak()) # Dog doesn't implement speak yet. Let's change that.
