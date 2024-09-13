@@ -6,6 +6,6 @@ Troubleshoot the issue 12: (created by Generative AI)
 Author: Nathan Lutala (nlutala)
 """
 
-
-for i in range(5)
-    print(i)
+if __name__ == "__main__":
+    for i in range(5)
+        print(i)
