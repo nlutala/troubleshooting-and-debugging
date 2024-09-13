@@ -15,5 +15,6 @@ class Dog:
         print(self.name + " says woof!")
 
 
-dog = Dog("Buddy")
-dog.bark
+if __name__ == "__main__":
+    dog = Dog("Buddy")
+    dog.bark
